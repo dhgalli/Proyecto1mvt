@@ -21,3 +21,4 @@ class Entregable(models.Model):
     fecha_entrega = models.DateField()
     entregado = models.BooleanField()
  
+  # modloooo
