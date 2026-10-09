@@ -132,3 +132,11 @@ Criterios transversales: trabajar sobre copia con registro por versión; `npm te
 1. **GitHub y las fotos.** El repo `dhgalli/Proyecto1mvt` es **público**, así que subir el juego ahí publica las fotos de tus amigos. ¿Lo pasás a privado (en GitHub: Settings → General → abajo de todo, «Change repository visibility» → Private) o creo la estructura para que el juego viva en este repo recién cuando sea privado? Mientras tanto trabajo con el zip y te devuelvo zip + HTML jugable.
 2. **Teléfono de referencia.** ¿Qué modelo usan más para jugar? (marca/modelo alcanza). Define el presupuesto real de calidad para el objetivo de 60 fps y contra qué pruebo el overlay de fps.
 3. **Sabor del combate.** ¿Querés que las recetas encadenen garantizado al acertar (más arcade: conectás el primero y la secuencia sale) o preferís el ritmo actual de golpes sueltos donde el combo es solo un bonus? Define los ítems 6 y 7.
+
+---
+
+## Actualización — 9 de octubre de 2026: v9 entregada
+
+Decisiones del usuario: el repo pasará a privado (pendiente de hacerse efectivo; hasta entonces el código del juego viaja por zip), teléfono de referencia **Samsung Galaxy A56**, y el combate conserva el ritmo actual (sin encadenado arcade; el ítem 6 queda descartado).
+
+Entrega 1 («La transmisión») implementada y entregada como `Justicombat-v9-continuar.zip` + HTML jugable: luz y color horneados (en emulación por software la pelea pasó de ~9 a ~38 fps; falta la medición física con `?debug=1` en el A56), cámara de transmisión con zoom hasta 1,3×, K.O. en cámara lenta con caída animada, repetición saltable del golpe final tras un K.O., entrenador de combo en vivo, halos rojos de los atlas atenuados y overlay de fps de desarrollo. `engine.js` intacto; las 8 suites de v8 más una nueva (`test-v9.cjs`) pasan y el release offline se regeneró. El detalle completo está en `NOTAS-V9.md` dentro del zip.
